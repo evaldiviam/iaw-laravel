@@ -23,3 +23,5 @@ Route::post('/articles', 'App\Http\Controllers\ArticleController@store');
 Route::get('/articles/{article}', 'App\Http\Controllers\ArticleController@show');
 Route::put('/articles/{article}', 'App\Http\Controllers\ArticleController@update');
 Route::delete('/articles/{article}', 'App\Http\Controllers\ArticleController@destroy');
+
+Route::get('/articles/search/{name}', 'App\Http\Controllers\ArticleController@searchByName');

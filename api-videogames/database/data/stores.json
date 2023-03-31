@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Almacén Alfa",
+        "address": "calle sangartana"
+    },
+    {
+        "id": 2,
+        "name": "Almacén Beta",
+        "address": "calle sapo"
+    },
+    {
+        "id": 3,
+        "name":"Almacén Delta",
+        "address": "calle serpiente"
+    }
+]
